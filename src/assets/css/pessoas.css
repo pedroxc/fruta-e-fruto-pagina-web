@@ -30,7 +30,21 @@
   text-transform: lowercase;
   color:#595959;
   font-size: 1.25rem;
+}
 
-
-
+@media screen and (min-width:0) {
+  .pessoas{
+    flex-direction: column;
+  }
+  .pessoa{
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (min-width:768px) {
+  .pessoas{
+    flex-direction: row;
+  }
+  .pessoa{
+    margin-bottom: 0;
+  }
 }

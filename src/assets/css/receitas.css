@@ -2,7 +2,6 @@
   background-color: #e5e5e5;
   display: flex;
   flex-wrap: wrap;
-  padding: 5rem 0 0 5rem;
 }.receita{
   background-color: #fdfdfd;
   display: flex;
@@ -31,3 +30,27 @@
   cursor: pointer;
   background-color: #620404;
 }
+
+@media screen and (min-width:0) {
+  .receita{
+    width: 100%;
+    margin-right: 0;
+  }
+  .receitas{
+    padding: 5rem 0 0 1rem;
+  }
+
+}
+@media screen and (min-width:768px) {
+  .receita{
+    width: calc(33.33% - 2.5rem);
+    margin-right: 2.5rem;
+  }
+  .receutas{
+    padding: 5rem 0 0 2.5rem
+
+  }
+}
+
+
+
